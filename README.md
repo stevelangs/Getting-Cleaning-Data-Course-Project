@@ -7,7 +7,7 @@ The run_analysis fuction performs as follows:
 * Gets the Samsung data feature names from the file "features.txt".
 * Selects the mean and standard deviation feature names from the complete list of names.
 * Generates column names derived from the feature names.
-* Reads the test and training measurements, activity codes, and subject codes into data frames, assigning the column names derived above to the Samsung measurement columns.
+* Reads the test and training measurements, activity codes, and subject codes from the Samsung data into data frames, assigning the column names derived above to the Samsung measurement columns.
 * Creates a data frame unifying all of the above data, called "all_data"
 * Extracts from "all_data" a data frame containing only the mean and standard deviation measurements, and also the actvity and subject codes.
 * Attaches the appropriate activity text label from the file "activity_labels.txt" to each record.
