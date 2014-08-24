@@ -1,26 +1,42 @@
+
+Summary
+=======
+
 The file run_analysis_results.txt contains the output of the run_analysis function
-when applied to the Samsung data. The analysis performed is as follows:
+when applied to the Samsung data.
+
+Analysis Peformed
+-----------------
 
 1. Merge the training and test datasets into a single dataset.
 2. Project out a subset of feature variables, namely those which are means or standard deviations.
 3. Attach to each record the activity and subject which generated the measurements in that record.
 4. Using this result, generate as final output the mean of each recorded feature variable for each given activity/subject pair.
 
-The column names of the generated output are listed below, in order as they appear in the output records.
-The first two columns, "Activity.lable" and "Subject", record the activity label and subject whose results are reported in that record. The remaining column names are derived from the feature names provided in the Samsung data. For example:
+Data produced
+-------------
 
-Samsung feature name: tBodyAcc-mean()-X
+The column names of the measurement variables in the output records are derived from the corresponding feature name in the Samsung data. For example:
+
+Samsung feature name: tBodyAcc-mean()-X  
 Output column name: tBodyAcc.mean.X
 
-Each of the values in a given output column are a mean, computed over all the measurements of the corresponding Samsung feature for the given activity/subject. For example, if a given output record has the following values:
+Each of the values in a given output column is a mean, computed over all the measurements of the corresponding Samsung feature for the activity/subject shown in "Activity.label" and "Subject" columns. For example, if a given output record has the following values:
 
-Activity.label: WALKING
-Subject: 10
-tBodyAcc.mean.X: 0.22159824394
+Activity.label: WALKING  
+Subject: 10  
+tBodyAcc.mean.X: 0.22159824394  
 
-This means that for the activity of "WALKIKNG", subject 10 had a mean value of 0.22159824394 for the Samsung feature tBodyAcc-mean()-X.
+This means that:  
+    for the activity of "WALKING"  
+    subject 10  
+    had a mean value of 0.22159824394 for the Samsung feature tBodyAcc-mean()-X.
 
-In the following record format:
+Output record fomat
+===================
+
+Data format
+-----------
 
 "Activity.label" is a character string, with one of the following values:
 
@@ -35,9 +51,8 @@ In the following record format:
 
 All other columns are numeric values from the interval [1.0, -1.0], in signed, fixed point format.
 
-
-Output record fomat
--------------------
+Columns
+-------
 
 1. Activity.label      
 2. Subject
