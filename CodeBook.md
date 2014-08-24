@@ -98,7 +98,7 @@ Columns
 40. tBodyGyroMag.std
 41. tBodyGyroJerkMag.mean
 42. tBodyGyroJerkMag.std
-43. 3fBodyAcc.mean.X
+43. fBodyAcc.mean.X
 44. fBodyAcc.mean.Y
 45. fBodyAcc.mean.Z
 46. fBodyAcc.std.X
