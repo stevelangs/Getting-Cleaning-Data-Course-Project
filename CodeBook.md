@@ -119,6 +119,6 @@ Columns
 64. fBodyBodyAccJerkMag.mean
 65. fBodyBodyAccJerkMag.std
 66. fBodyBodyGyroMag.mean
-fBodyBodyGyroMag.std
-fBodyBodyGyroJerkMag.mean
-fBodyBodyGyroJerkMag.std
+67. fBodyBodyGyroMag.std
+68. fBodyBodyGyroJerkMag.mean
+69. fBodyBodyGyroJerkMag.std
