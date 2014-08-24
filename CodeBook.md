@@ -32,6 +32,8 @@ This means that:
 * subject 10  
 * had a mean value of 0.22159824394 for the Samsung feature tBodyAcc-mean()-X.
 
+For information on the meaning and units of measurement of the Samsung features from which the means were derived, see the file "features_info.txt" in the Samsung data directory.
+
 Output record fomat
 ===================
 
