@@ -28,9 +28,9 @@ Subject: 10
 tBodyAcc.mean.X: 0.22159824394  
 
 This means that:  
-    for the activity of "WALKING"  
-    subject 10  
-    had a mean value of 0.22159824394 for the Samsung feature tBodyAcc-mean()-X.
+* for the activity of "WALKING"  
+* subject 10  
+* had a mean value of 0.22159824394 for the Samsung feature tBodyAcc-mean()-X.
 
 Output record fomat
 ===================
@@ -40,12 +40,12 @@ Data format
 
 "Activity.label" is a character string, with one of the following values:
 
- WALKING
- WALKING_UPSTAIRS
- WALKING_DOWNSTAIRS
- SITTING
- STANDING
- LAYING
+ WALKING  
+ WALKING_UPSTAIRS  
+ WALKING_DOWNSTAIRS  
+ SITTING  
+ STANDING  
+ LAYING  
  
 "Subject" is an integer value.
 
